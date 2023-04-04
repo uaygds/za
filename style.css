@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E8E8E8;
+    padding: 200px;
+}
+
+.outtext {
+    font-size: 12px;
+    font-weight: 400;
+    color: black ;
+    opacity: 0.55;
+}
+
+.block {
+    width: 600px;
+    height: 717px;
+
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.krest{
+    margin: 54px 69px 0 506px;
+    transition: all 0.2s linear;
+}
+
+.krest:hover {
+    transform: rotate(90deg);
+
+}
+
+
+.title {
+    font-size: 35px;
+    font-weight: 700px;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.block__main {
+    padding: 50px 119px 80px 107px;
+}
+
+
+
+input {
+    padding-left: 32px;
+    margin-bottom: 24px;
+    width: 385px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border: 1px solid #BDBDBD;
+    border-radius: 83px;
+    outline-offset: 0;
+    opacity: 0.5;
+}
+
+.eye {
+    translate: 335px -68px;
+}
+
+.checkbox {
+    width: 30px ;
+    height: 30px;
+    margin-left: -23px;
+}
+
+
+.zapom {
+    display: block;
+    margin-top: -47px;
+    margin-left: 50px;
+    margin-bottom: 45px;
+}
+
+.voiti {
+    background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+    border-radius: 49px;
+    width: 152px;
+    height: 50px;
+    border: none;
+    margin: 0px 24px 81px 34px;
+    font-size: 16px;
+    color: white;
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+
+.voiti:hover {
+   background: #3a2626;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.block__sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reg {
+    position: relative;
+    margin-bottom: 29px;
+}
+
+.reg::after {
+    content: "";
+    position: absolute;
+    width: 385px;
+    height: 1px;
+    background-color: #BDBDBD;
+    top: -40px;
+    right: -90px;
+}
+
+.btn_a {
+    width: 217px;
+    height: 50px;
+    border: #BDBDBD solid 1px;
+    border-radius: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #BDBDBD;
+}
